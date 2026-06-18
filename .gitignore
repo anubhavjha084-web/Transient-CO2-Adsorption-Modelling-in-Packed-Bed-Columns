@@ -1,0 +1,58 @@
+# ===========================
+# MATLAB / Simulink
+# ===========================
+
+# Compiled MEX files
+*.mex*
+
+# Simulink autosave and cache
+*.slxc
+*.autosave
+
+# MATLAB code generation
+codegen/
+slprj/
+
+# Packaged app installers (keep the existing ones tracked)
+# *.exe
+
+# MATLAB temporary / session files
+*.asv
+*.m~
+*.mat~
+
+# ===========================
+# Build & Output
+# ===========================
+*.o
+*.obj
+*.log
+
+# ===========================
+# OS-specific
+# ===========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+__MACOSX/
+._*
+
+# Linux
+*~
+.nfs*
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
